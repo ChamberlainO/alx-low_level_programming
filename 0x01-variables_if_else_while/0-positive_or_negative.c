@@ -4,6 +4,7 @@
 
 /**
  * main - Entry point
+ *
  * Description: print if a number is positive or negative.
  * Return: 0
  */
@@ -12,8 +13,8 @@ int main(void)
 {
 	int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	srand (time(0));
+	n = ra`nd() - RAND_MAX / 2;
 	if (n > 0)
 	{
 		printf("%i is positive\n", n);
