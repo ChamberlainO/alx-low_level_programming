@@ -10,3 +10,5 @@
 9. Write a function that prints the 9 times table, starting with 0.
 10. Write a function that adds two integers and returns the result.
 11. Write a function that prints all natural numbers from n to 98, followed by a new line.
+12.
+13. A program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
