@@ -1,4 +1,3 @@
-You've used 82% of your storage. … If you run out of storage, you won't be able to upload new files.Learn more
 #ifndef MAIN_H
 #define MAIN_H
 
