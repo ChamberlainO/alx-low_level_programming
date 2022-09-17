@@ -1,3 +1,4 @@
+You've used 82% of your storage. … If you run out of storage, you won't be able to upload new files.Learn more
 #include <stdio.h>
 #include "main.h"
 
@@ -9,17 +10,17 @@
 
 void more_numbers(void)
 {
-	int num1, num2;
+	int n1, n2;
 
-	for (num1 = 0; num1 < 10; num1++)
+	for (n1 = 0; n1 < 10; n1++)
 	{
-		for (num2 = 0; num2 <= 14; num2++)
+		for (n2 = 0; n2 <= 14; n2++)
 		{
-			if (num2 > 9)
+			if (n2 > 9)
 			{
-				putchar((num2 / 10) + '0');
+				putchar((n2 / 10) + '0');
 			}
-			putchar((nun2 % 10) + '0');
+			putchar((n2 % 10) + '0');
 		}
 		putchar(10);
 	}
