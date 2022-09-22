@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_strncat - concatenate two strings but add inputted number of bytes
+ * _strncat - concatenate two strings but add inputted number of bytes
  *@dest: string to be added upon
  *@scr: string to be added to dest
  *@n: integer parameter to compare index to
