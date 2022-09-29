@@ -17,16 +17,16 @@ int _sqrt_recursion(int n)
 /**
  * _sqrt - Calculate natural square root.
  * @n: Number to calculate the square.
- * @i: Iterate number.
+ * @x: Iterate number.
  *
  * Return: The square root of n.
  */
 
-int _sqrt(int n, int i)
+int _sqrt(int n, int x)
 {
-	if (n > i / 2)
+	if (n > x / 2)
 		return (-1);
-	else if (n * n == i)
+	else if (n * n == x)
 		return (n);
-	return (_sqrt(n + 1, i));
+	return (_sqrt(n + 1, x));
 }
